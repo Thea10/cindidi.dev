@@ -77,7 +77,7 @@ let projects = [
   },
   {
     name: "Luna API",
-    description: "A mini GitHub repositories clone for a test",
+    description: "Mini Backend Service for luna stores",
     tools: ["JAVASCRIPT", "NODE", "EXPRESS", "MONGODB"],
     repo: "https://github.com/Thea10/luna-api",
     hosted: "none",
