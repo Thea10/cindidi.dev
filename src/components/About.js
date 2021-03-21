@@ -1,5 +1,6 @@
 import React from "react";
 import { Fade } from "react-awesome-reveal";
+import { NavLink } from "react-router-dom";
 
 const About = () => {
   return (
@@ -33,9 +34,9 @@ const About = () => {
       </Fade>
       <Fade className=" p-5 my-2 mx-auto hexed" duration={1000}>
         <h5 className="my-4 desc__text ">
-          <a className="desc__text" href="#">
+          <NavLink className="desc__text" to="/projects">
             My Portfolio
-          </a>
+          </NavLink>
         </h5>
       </Fade>
 
@@ -50,7 +51,7 @@ const About = () => {
             <span> I am vey familiar with the following tools: </span>
 
             <div className="row mx-0 my-4">
-              <Fade className="col-sm-3  tool-cards" duration={1500} cascade>
+              <Fade className="col-sm-3  tool-cards" duration={1000} cascade>
                 <div> HTML </div>
                 <div> (S)CSS </div>
                 <div> JAVASCRIPT </div>
@@ -66,10 +67,21 @@ const About = () => {
             <span> I have used the following tools at least twice</span>
 
             <div className="row mx-0 my-4">
-              <Fade className="col-sm-3  tool-cards" duration={1500}  cascade>
+              <Fade className="col-sm-3  tool-cards" duration={1500} delay={500}  cascade>
                 <div> JEST </div>
                 <div> MONGO DB </div>
                 <div> EXPRESS JS </div>
+              </Fade>
+            </div>
+          </div>
+
+          <div className="my-5 px-3 text-center">
+            <span> Need someone with my skillset in your team or for a project? </span>
+
+            <div className="row justify-content-center mx-0 my-4">
+              <Fade className="col-sm-3  tool-cards" duration={1500}  cascade>
+                <div> <a href="mailto:olucyakin@gmail.com" id="email" > CLICK TO SEND AN EMAIL  </a> </div>
+                 
               </Fade>
             </div>
           </div>

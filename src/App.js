@@ -35,6 +35,7 @@ function Holder(){
     <SwitchTheme   switchTheme={toggle}
     checked={switched}
     toggleCheck={() => toggleSwitch(!switched)} />
+    <span>⭐⭐Designed and built by Cynthia Akinade,      © {new Date().getFullYear()}  </span>
   </div>
   )
 
