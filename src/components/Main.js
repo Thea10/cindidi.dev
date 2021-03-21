@@ -43,7 +43,7 @@ const Main = () => {
                   title="Stuff I've worked on are here "
                 ></i>
               </a>
-              <a href="#" target="_blank" rel="noreferrer" href="https://twitter.com/cynnoq" className="m-3 ">
+              <a   target="_blank" rel="noreferrer" href="https://twitter.com/cynnoq" className="m-3 ">
                 <i title="I tweet weird stuff" class="fa fa-twitter   "></i>
               </a>
               <a href="mailto:olucyakin@gmail.com" className="m-3 ">
