@@ -7,7 +7,7 @@ let projects = [
         description: "Personal Website",
         tools: ["HTML", "SCSS", "REACT"],
         repo: "https://github.com/Thea10/cindidi.dev",
-        hosted: "http://cindidi.dev.netlify.app/",
+        hosted: "http://cindidi-dev.netlify.app/",
         resources: ['An array named projects'],
       },
   {
@@ -162,7 +162,7 @@ const More = () => {
                   <a
                     className="ml-2"
                     href={`${repo === "Private" ? "#" : repo}`}
-                    target="_blank"
+                    target="_blank" rel="noreferrer"
                   >
                     {repo}
                   </a>
@@ -173,7 +173,7 @@ const More = () => {
                   <a
                     className="ml-2"
                     href={`${hosted === 'none' ? "#" : hosted} `}
-                    target="_blank"
+                    target="_blank" rel="noreferrer"
                   >
                     {hosted}
                   </a>
@@ -207,7 +207,7 @@ const More = () => {
         </ul>
 
         <div className=" ml-4 desc__text text-left">
-           <a href="https://github.com/Thea10" target="_blank"> GITHUB </a>
+           <a href="https://github.com/Thea10" target="_blank" rel="noreferrer"> GITHUB </a>
           </div>
       </div>
      
