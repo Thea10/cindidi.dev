@@ -10,6 +10,14 @@ let projects = [
         hosted: "http://cindidi-dev.netlify.app/",
         resources: ['An array named projects'],
       },
+      {
+        name: "Unsplash Clone",
+        description: "A mini Unsplash.com clone",
+        tools: ["HTML", "CSS", "REACT", "REDUX", "TYPESCRIPT"],
+        repo: "https://github.com/Thea10/splash_clone",
+        hosted: "https://clone-splash.netlify.app/",
+        resources: ["UNSPLASH API"],
+      },
   {
     name: "Malon Website",
     description: "Marketing Website",
