@@ -131,7 +131,7 @@ let projects = [
 const More = () => {
   return (
     <Fade className="portfolio px-2 py-5" direction="down" duration={1500}>
-      <div className="col-12 col-md-9 p-3   ">
+      <div className="col-12 col-md-11 p-3   ">
         <div className="mt-5 d-flex align-items-center">
           <span className=" ml-4 desc__text ">
             Quick highlight of some stuff I have worked on
@@ -208,7 +208,6 @@ const More = () => {
                 <br />
                 <br/>
 
-                {index < projects.length ? <hr /> : null}
               </li>
             );
           })}
