@@ -1,10 +1,10 @@
-import React, { useState, useContext } from "react";
+import React from "react";
 import "./App.scss";
 import { Route, Switch } from "react-router";
 import Main from "./components/Main";
 import More from "./components/More";
-import { ThemeContext, ThemeProvider } from "./theme/ThemeProvider";
-import SwitchTheme from "./theme/SwitchTheme";
+import {  ThemeProvider } from "./theme/ThemeProvider";
+// import SwitchTheme from "./theme/SwitchTheme";
 import "./components/_components.scss";
 import Nav from "./components/Nav";
 
@@ -20,11 +20,11 @@ function App() {
 }
 
 function Holder(){
-  const [switched, toggleSwitch] = useState(true);
-  const { bodyTheme, toggle } = useContext(ThemeContext);
+  // const [switched, toggleSwitch] = useState(true);
+  // const { bodyTheme, toggle } = useContext(ThemeContext);
 
   return(
-    <div className={`App  text-center ${bodyTheme.background} `}>
+    <div className={`App  text-center  `}>
      <Nav />
 
     <Switch>
@@ -32,9 +32,9 @@ function Holder(){
       <Route exact path="/projects" component={More} />
     </Switch>
 
-    <SwitchTheme   switchTheme={toggle}
+    {/* <SwitchTheme   switchTheme={toggle}
     checked={switched}
-    toggleCheck={() => toggleSwitch(!switched)} />
+    toggleCheck={() => toggleSwitch(!switched)} /> */}
     <span>⭐⭐Designed and built by Cynthia Akinade,      © {new Date().getFullYear()}  </span>
   </div>
   )

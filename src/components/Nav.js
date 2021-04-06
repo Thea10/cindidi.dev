@@ -1,7 +1,6 @@
-import React, { useContext } from "react";
+import React  from "react";
 import { NavLink } from "react-router-dom";
-import { ThemeContext } from "../theme/ThemeProvider";
-
+ 
 function toggleButton() {
   let btn = document.getElementById("animate-btn");
   btn.classList.toggle("open");
@@ -14,11 +13,10 @@ function toggleNav() {
 }
 
 const Nav = () => {
-  const { bodyTheme } = useContext(ThemeContext);
-
+ 
   return (
     <nav
-      className={`nav text-center navbar-expand-md navbar-light justify-content-between  align-items-center px-2 px-lg-3 px-xl-5 ${bodyTheme.background}`}
+      className={`nav text-center navbar-expand-md navbar-light justify-content-between  align-items-center px-2 px-lg-3 px-xl-5  `}
       id="head-nav"
     >
       <div className="navbar-brand  ">

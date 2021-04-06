@@ -18,14 +18,13 @@ const About = () => {
 
           <h5 className="my-4 px-3 desc__text ">
             My name is Cynthia Akinade, I am a software engineer in Lagos,
-            Nigeria currently focused on Frontend Web Development. I build the
-            client-side of web applications using the required tools.
-            <a href="#skills"> here </a>
+            Nigeria currently focused on bulding interactive and functional, as
+            well as aesthetically pleasing (haha) websites.
             <br />
+            <br />I currently use
+             <a href="#skills"> these </a> tools.
             <br />
-            I have been at this since March 2019, some months after my degree
-            programme. It has been, and is still, a ride (😶).
-            <br />
+
             <br />
             When I'm not working (re: when I am stressed 😪 ) I read, listen to
             music and think about how to better my skills.
@@ -44,44 +43,58 @@ const About = () => {
         <div id="skills">
           <div className="d-flex align-items-center">
             <span className="desc__text circle"> 😶 </span>
-            <span className=" ml-4 desc__text "> Skills </span>
+            <span className=" ml-4 desc__text "> Stack </span>
           </div>
 
           <div className="my-4 px-3">
-            <span> I am vey familiar with the following tools: </span>
+            <span> Core: </span>
 
             <div className="row mx-0 my-4">
               <Fade className="col-sm-3  tool-cards" duration={1000} cascade>
-                <div> HTML </div>
-                <div> (S)CSS </div>
-                <div> JAVASCRIPT </div>
-                <div> TYPESCRIPT </div>
-                <div> REACT </div>
-                <div> ANGULAR (7+) </div>
-                <div> VUE </div>
-                <div>NODE </div>
+                <div> Html </div>
+                <div> (S)Css </div>
+                <div> Javascript </div>
+                <div> Typescript </div>
+                <div> React </div>
+                <div> Angular (7+) </div>
               </Fade>
             </div>
           </div>
           <div className="my-4 px-3">
-            <span> I have used the following tools at least twice</span>
+            <span> Familiar</span>
 
             <div className="row mx-0 my-4">
-              <Fade className="col-sm-3  tool-cards" duration={1500} delay={500}  cascade>
-                <div> JEST </div>
-                <div> MONGO DB </div>
-                <div> EXPRESS JS </div>
+              <Fade
+                className="col-sm-3  tool-cards"
+                duration={1500}
+                delay={500}
+                cascade
+              >
+                <div>Gatsby</div>
+                <div> Vue </div>
+                <div>Node </div>
+                <div> Jest </div>
+                <div> MongoDB </div>
+                <div> Express </div>
               </Fade>
             </div>
           </div>
 
           <div className="my-5 px-3 text-center">
-            <span> Need someone with my skillset in your team or for a project? </span>
+            <span>
+              
+              Need someone with my skillset in your team or for a project?
+            </span>
 
             <div className="row justify-content-center mx-0 my-4">
-              <Fade className="col-sm-3  tool-cards" duration={1500}  cascade>
-                <div> <a href="mailto:olucyakin@gmail.com" id="email" > CLICK TO SEND AN EMAIL  </a> </div>
+              <Fade className="col-sm-3  tool-cards" duration={1500} cascade>
+                <div>
                  
+                  <a href="mailto:olucyakin@gmail.com" id="email">
+                    
+                  🚀 ME AN EMAIL 
+                  </a>
+                </div>
               </Fade>
             </div>
           </div>
