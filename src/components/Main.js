@@ -2,9 +2,13 @@ import React from "react";
 import { Bounce, Fade } from "react-awesome-reveal";
 import { NavLink } from "react-router-dom";
 import About from "./About";
+import { Page } from "./Title";
 
 const Main = () => {
   return (
+    <Page title={'Home'}>
+
+ 
     <div>
       <header
         className="main__header
@@ -28,7 +32,7 @@ const Main = () => {
             duration={1000}
           >
             <h1 className="head__text mb-4"> I'm Cynthia</h1>
-            <h5 className="desc__text">Front-end Developer</h5>
+            <h5 className="desc__text">Frontend Developer</h5>
 
             <small> Quick links</small>
           </Fade>
@@ -131,6 +135,7 @@ const Main = () => {
 
       <About />
     </div>
+    </Page>
   );
 };
 

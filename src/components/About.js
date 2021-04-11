@@ -19,7 +19,7 @@ const About = () => {
           <h5 className="my-4 px-3 desc__text ">
             My name is Cynthia Akinade, I am a software engineer in Lagos,
             Nigeria currently focused on bulding interactive and functional, as
-            well as aesthetically pleasing (haha) websites.
+            well as aesthetically pleasing (haha) web applications.
             <br />
             <br />I currently use
              <a href="#skills"> these </a> tools.
@@ -27,7 +27,7 @@ const About = () => {
 
             <br />
             When I'm not working (re: when I am stressed 😪 ) I read, listen to
-            music and think about how to better my skills.
+            music and think about how to better my skills. I would also love  explore AR soon 🙃.
           </h5>
         </div>
       </Fade>

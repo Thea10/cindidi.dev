@@ -1,23 +1,24 @@
 import React from "react";
 import { Fade } from "react-awesome-reveal";
+import { Page } from "./Title";
 
 let projects = [
-    {
-        name: "My Portfolio",
-        description: "Personal Website",
-        tools: ["HTML", "SCSS", "REACT"],
-        repo: "https://github.com/Thea10/cindidi.dev",
-        hosted: "http://cindidi-dev.netlify.app/",
-        resources: ['An array named projects'],
-      },
-      {
-        name: "Unsplash Clone",
-        description: "A mini Unsplash.com clone",
-        tools: ["HTML", "CSS", "REACT", "REDUX", "TYPESCRIPT"],
-        repo: "https://github.com/Thea10/splash_clone",
-        hosted: "https://clone-splash.netlify.app/",
-        resources: ["UNSPLASH API"],
-      },
+  {
+    name: "My Portfolio",
+    description: "Personal Website",
+    tools: ["HTML", "SCSS", "REACT"],
+    repo: "https://github.com/Thea10/cindidi.dev",
+    hosted: "http://cindidi-dev.netlify.app/",
+    resources: ["An array named projects"],
+  },
+  {
+    name: "Unsplash Clone",
+    description: "A mini Unsplash.com clone",
+    tools: ["HTML", "CSS", "REACT", "REDUX", "TYPESCRIPT"],
+    repo: "https://github.com/Thea10/splash_clone",
+    hosted: "https://clone-splash.netlify.app/",
+    resources: ["UNSPLASH API"],
+  },
   {
     name: "Malon Website",
     description: "Marketing Website",
@@ -78,7 +79,7 @@ let projects = [
   {
     name: "Luna Stores",
     description: "Simple Mini Store  ",
-    tools: ["HTML", "SCSS", "VUE", "VUEX" ],
+    tools: ["HTML", "SCSS", "VUE", "VUEX"],
     repo: "https://github.com/Thea10/luna",
     hosted: "https://lunahoney-96508.web.app/",
     resources: ["PRIVATE API"],
@@ -89,7 +90,7 @@ let projects = [
     tools: ["JAVASCRIPT", "NODE", "EXPRESS", "MONGODB"],
     repo: "https://github.com/Thea10/luna-api",
     hosted: "none",
-    resources: [ ],
+    resources: [],
   },
   {
     name: "Acme Stores",
@@ -108,7 +109,7 @@ let projects = [
     hosted: "https://userdb-enyetest.netlify.app/",
     resources: ["PRIVATE API"],
   },
- 
+
   {
     name: "fakeX Stores",
     description: "Simple Mini Store Front",
@@ -117,7 +118,7 @@ let projects = [
     hosted: "https://fakexstore.netlify.app/",
     resources: ["PRIVATE API"],
   },
-  
+
   {
     name: "Git Repos Clone",
     description: "A mini GitHub repositories clone for a test",
@@ -130,95 +131,107 @@ let projects = [
 
 const More = () => {
   return (
-    <Fade className="portfolio px-2 py-5" direction="down" duration={1500}>
-      <div className="col-12 col-md-11 p-3   ">
-        <div className="mt-5 d-flex align-items-center">
-          <span className=" ml-4 desc__text ">
-            Quick highlight of some stuff I have worked on
-          </span>
-        </div>
-
-        <ul className="my-5 row mx-0 col   text-left">
-          {projects.map((project, index) => {
-            let { name, tools, repo, hosted, resources, description } = project;
-
-            return (
-              <li key={index} className="col-lg-5 col-xl-4 p-0  my-4">
-                {name}
-                <br />
-                <span> {description} </span>
-                <br />
-                <br />
-                <span>
-                  Tools:
-                   {tools.map((tool, index) => (
-                    <span className="ml-2" key={index}>
-                     
-                      {tool}
-                      {index < tools.length - 1 ? (
-                        <span> , </span>
-                      ) : (
-                        <span> </span>
-                      )}
-                    </span>
-                  ))}
-                </span>
-                
-                <br />
-                <span>
-                  Repo:
-                  <a
-                    className="ml-2"
-                    href={`${repo === "Private" ? "#" : repo}`}
-                    target="_blank" rel="noreferrer"
-                  >
-                    {repo}
-                  </a>
-                </span>
-                <br />
-                <span>
-                  Live:
-                  <a
-                    className="ml-2"
-                    href={`${hosted === 'none' ? "#" : hosted} `}
-                    target="_blank" rel="noreferrer"
-                  >
-                    {hosted}
-                  </a>
-                </span>
-                ;
-                <br />
-                <span>
-                  Resources:
-                  {resources.length > 0
-                    ? resources.map((resource, index) => (
-                        <span className="ml-2" key={index}>
-                         
-                          {resource}
-                          {index < resources.length - 1 ? (
-                            <span> , </span>
-                          ) : (
-                            <span> </span>
-                          )}
-                        </span>
-                      ))
-                    : " None"}
-                </span>
-
-                <br />
-                <br/>
-
-              </li>
-            );
-          })}
-        </ul>
-
-        <div className=" ml-4 desc__text text-left">
-           <a href="https://github.com/Thea10" target="_blank" rel="noreferrer"> GITHUB </a>
+    <Page title={"Projects"}>
+      <Fade className="portfolio px-2 py-5" direction="down" duration={1500}>
+        <div className="col-12 col-md-11 p-3   ">
+          <div className="mt-5 d-flex align-items-center">
+            <span className=" ml-4 desc__text ">
+              Quick highlight of some stuff I have worked on
+            </span>
           </div>
-      </div>
-     
-    </Fade>
+
+          <ul className="my-5 row mx-0 col   text-left">
+            {projects.map((project, index) => {
+              let {
+                name,
+                tools,
+                repo,
+                hosted,
+                resources,
+                description,
+              } = project;
+
+              return (
+                <li key={index} className="col-lg-5 col-xl-4 p-0  my-4">
+                  {name}
+                  <br />
+                  <span> {description} </span>
+                  <br />
+                  <br />
+                  <span>
+                    Tools:
+                    {tools.map((tool, index) => (
+                      <span className="ml-2" key={index}>
+                        {tool}
+                        {index < tools.length - 1 ? (
+                          <span> , </span>
+                        ) : (
+                          <span> </span>
+                        )}
+                      </span>
+                    ))}
+                  </span>
+                  <br />
+                  <span>
+                    Repo:
+                    <a
+                      className="ml-2"
+                      href={`${repo === "Private" ? "#" : repo}`}
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      {repo}
+                    </a>
+                  </span>
+                  <br />
+                  <span>
+                    Live:
+                    <a
+                      className="ml-2"
+                      href={`${hosted === "none" ? "#" : hosted} `}
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      {hosted}
+                    </a>
+                  </span>
+                  ;
+                  <br />
+                  <span>
+                    Resources:
+                    {resources.length > 0
+                      ? resources.map((resource, index) => (
+                          <span className="ml-2" key={index}>
+                            {resource}
+                            {index < resources.length - 1 ? (
+                              <span> , </span>
+                            ) : (
+                              <span> </span>
+                            )}
+                          </span>
+                        ))
+                      : " None"}
+                  </span>
+                  <br />
+                  <br />
+                </li>
+              );
+            })}
+          </ul>
+
+          <div className=" ml-4 desc__text text-left">
+            <a
+              href="https://github.com/Thea10"
+              target="_blank"
+              rel="noreferrer"
+            >
+              {" "}
+              GITHUB{" "}
+            </a>
+          </div>
+        </div>
+      </Fade>{" "}
+    </Page>
   );
 };
 

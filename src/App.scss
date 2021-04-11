@@ -9,8 +9,9 @@
   color:$dark-color;
   transition: background-color 1.5s cubic-bezier(0.65, 0.05, 0.36, 1);
   &.dark {
-    background:linear-gradient(to right, #ebebeb, #f1f1fc);
+   // background:linear-gradient(to right, #ebebeb, #f1f1fc);
     color: $background-darker;
+    background: $background-light;
 
     .tool-cards{
       background-color: $toggler;
@@ -33,7 +34,7 @@
   }
 
   .btn-deep-purple  {
-    background-color: $deep-purple;
+    background-color: $toggler;
 
     &.border-round {
       border-radius: 100%;
@@ -41,7 +42,7 @@
       width: 50px;
     }
     &:hover {
-      background-color: $purple;
+      background-color: $greyed;
     }
   }
 
