@@ -80,7 +80,7 @@ const About = () => {
                     {/* <li>Built reusable components with Angular</li> */}
                     <li> Collaborating with the team to build churchvest </li>
                   </ul>
-                  <small> Tools: React, Angular(7+), Typescript </small>
+                  <small> Tools: React, Angular(8+), Typescript </small>
                 </div>
               </Fade>
             </div>
