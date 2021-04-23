@@ -125,6 +125,7 @@ const About = () => {
                 <div> Jest </div>
                 <div> MongoDB </div>
                 <div> Express </div>
+                <div>C# </div>
               </Fade>
             </div>
           </div>
