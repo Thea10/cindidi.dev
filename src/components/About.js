@@ -106,6 +106,7 @@ const About = () => {
                 <div> Typescript </div>
                 <div> React </div>
                 <div> Angular (7+) </div>
+                <div>Jasmine</div>
               </Fade>
             </div>
           </div>

@@ -225,12 +225,12 @@ const More = () => {
               target="_blank"
               rel="noreferrer"
             >
-              {" "}
-              GITHUB{" "}
+              
+              GITHUB
             </a>
           </div>
         </div>
-      </Fade>{" "}
+      </Fade>
     </Page>
   );
 };
