@@ -14,12 +14,6 @@ const Main = () => {
         >
           <div className="col-11 mt-5 mx-auto px-0 py-5 text-center">
             <Bounce className="mt-5">
-              {/* <div
-            className="btn btn-deep-purple w-25 mb-5 "
-            style={{ cursor: "none", pointerEvents: "none" }}
-          >
-            Hiii
-          </div> */}
               <span>Hiii 👋</span>
             </Bounce>
             <Fade

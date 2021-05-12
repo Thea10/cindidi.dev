@@ -111,7 +111,7 @@ const About = () => {
             </div>
           </div>
           <div className="my-4 px-3">
-            <span> Familiar</span>
+            <span> I'm familiar with working with these:</span>
 
             <div className="row mx-0 my-4">
               <Fade

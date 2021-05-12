@@ -28,6 +28,22 @@ let projects = [
     resources: [],
   },
   {
+    name: "ScreenPlay NG",
+    description: "Web application",
+    tools: ["HTML", "SCSS", "ANGULAR 7", "TYPESCRIPT"],
+    repo: "Private",
+    hosted: "https://screenplayngg.firebaseapp.com/",
+    resources: [],
+  },
+  {
+    name: "Churchvest",
+    description: "Web application targetting administration",
+    tools: ["HTML", "SCSS", "ANGULAR 8", "TYPESCRIPT"],
+    repo: "Private",
+    hosted: "https://churchvest-test.web.app/",
+    resources: [],
+  },
+  {
     name: "Hive Landing",
     description: "Marketing Website",
     tools: ["HTML", "SCSS", "REACT"],
@@ -52,14 +68,7 @@ let projects = [
     hosted: "https://rate-test-server.herokuapp.com/",
     resources: ["PRIVATE API"],
   },
-  {
-    name: "ScreenPlay NG",
-    description: "Web application",
-    tools: ["HTML", "SCSS", "ANGULAR 7", "TYPESCRIPT"],
-    repo: "Private",
-    hosted: "https://screenplayngg.firebaseapp.com/",
-    resources: [],
-  },
+
   {
     name: "Unsplash Clone",
     description: "A mini Unsplash.com clone (for a test)",
