@@ -43,6 +43,15 @@ let projects = [
     hosted: "https://churchvest-test.web.app/",
     resources: [],
   },
+  
+  {
+    name: "Github User Search",
+    description: "Search for a user on github with this (lists ionly the user's public repositories)",
+    tools: ["HTML", "CSS", "JAVASCRIPT", "PARCEL"],
+    repo: "https://github.com/Thea10/g-profile-search",
+    hosted: "https://search-git-profiles.netlify.app/",
+    resources: ["GIHUB GRAPHQL API"],
+  },
   {
     name: "Hive Landing",
     description: "Marketing Website",
@@ -128,14 +137,6 @@ let projects = [
     resources: ["PRIVATE API"],
   },
 
-  {
-    name: "Git Repos Clone",
-    description: "A mini GitHub repositories clone for a test",
-    tools: ["HTML", "CSS", "JAVASCRIPT"],
-    repo: "https://github.com/Thea10/buycoins_test",
-    hosted: "https://nifty-git.netlify.app/",
-    resources: ["GIHUB GRAPHQL API"],
-  },
 ];
 
 const More = () => {
