@@ -53,6 +53,16 @@ const About = () => {
                 duration={1000}
                 cascade
               >
+                  <div className="w-100">
+                  <div>
+                    Nadus - Software Engineer (Frontend)
+                  </div>
+                  <br />
+                  <small>May 2021 - present </small>
+                  <br />
+                 
+                  <small> Tools: Angular(8+), Typescript, AzureDevops Tools </small>
+                </div>
                 <div className="w-100">
                   <div>
                     Layer5 (Via SheCode Africa Contributhon) -

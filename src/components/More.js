@@ -52,6 +52,22 @@ let projects = [
     hosted: "https://search-git-profiles.netlify.app/",
     resources: ["GIHUB GRAPHQL API"],
   },
+   {
+    name: "Unsplash Clone",
+    description: "A mini Unsplash.com clone (for a test)",
+    tools: ["HTML", "SCSS", "VUE", "VUEX", "MATERIAL UI"],
+    repo: "https://github.com/Thea10/splash-clone",
+    hosted: "https://splash-clone.netlify.app/",
+    resources: ["UNSPLASH API"],
+  },
+   {
+    name: "Dog Image Collection",
+    description: "A cute searchable galerry of dog pictures",
+    tools: ["HTML", "SCSS", "VUE", "VUEX"],
+    repo: "https://github.com/Thea10/view-dogceo-images",
+    hosted: "https://view-dogceo-images.netlify.app/",
+    resources: ["dog.ceo/dog-api/"],
+  },
   {
     name: "Hive Landing",
     description: "Marketing Website",
@@ -76,15 +92,6 @@ let projects = [
     repo: "https://github.com/Thea10/rate-test-server",
     hosted: "https://rate-test-server.herokuapp.com/",
     resources: ["PRIVATE API"],
-  },
-
-  {
-    name: "Unsplash Clone",
-    description: "A mini Unsplash.com clone (for a test)",
-    tools: ["HTML", "SCSS", "VUE", "VUEX", "MATERIAL UI"],
-    repo: "https://github.com/Thea10/splash-clone",
-    hosted: "https://splash-clone.netlify.app/",
-    resources: ["UNSPLASH API"],
   },
   {
     name: "Movie Nominations App",
