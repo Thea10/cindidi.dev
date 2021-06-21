@@ -98,7 +98,7 @@ const Main = () => {
                   </div>
                 </a>
 
-                <a href="mailto:olucyakin@gmail.com" title="Send me an email">
+                <a href="mailto:olucynakin@gmail.com" title="Send me an email">
                   <div className="text_content">
                     <i className="fa fa-envelope  "></i>
                     <div className="text_info">
