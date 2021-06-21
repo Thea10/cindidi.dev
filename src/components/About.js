@@ -149,7 +149,7 @@ const About = () => {
             <div className="row justify-content-center mx-0 my-4">
               <Fade className="col-sm-3  tool-cards" duration={1500} cascade>
                 <div>
-                  <a href="mailto:olucyakin@gmail.com" id="email">
+                  <a href="mailto:olucynakin@gmail.com" id="email">
                     🚀 ME AN EMAIL
                   </a>
                 </div>
