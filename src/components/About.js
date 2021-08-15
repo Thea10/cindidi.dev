@@ -58,7 +58,7 @@ const About = () => {
                     Nadus - Software Engineer (Frontend)
                   </div>
                   <br />
-                  <small>May 2021 - present </small>
+                  <small>May 2021 - July 2021 </small>
                   <br />
                  
                   <small> Tools: Angular(8+), Typescript, AzureDevops Tools </small>
@@ -69,7 +69,7 @@ const About = () => {
                     Contributor/Mentee
                   </div>
                   <br />
-                  <small>April 2021 - present </small>
+                  <small>April 2021 - May 2021 </small>
                   <br />
                   <ul>
                     <li>Contibute to layer5.io</li>
@@ -79,7 +79,7 @@ const About = () => {
                 <div className="w-100">
                   <div>Malon - Software Engineer (Frontend)</div>
                   <br />
-                  <small>November 2019 - present </small>
+                  <small>November 2019 - July 2021 </small>
                   <ul>
                     <li>Built the company website</li>
                     <li>

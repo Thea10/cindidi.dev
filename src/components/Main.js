@@ -86,7 +86,7 @@ const Main = () => {
                 <a
                   target="_blank"
                   rel="noreferrer"
-                  href="https://drive.google.com/file/d/1mqLpeWlU-1BBfDidbmiZh6zGzGK09DGF/view?usp=sharing"
+                  href="https://drive.google.com/file/d/1mqLpeWlU-1BBfDidbmiZh6zGzGK09DGF/view?usp=sharinghttps://drive.google.com/file/d/12-9MwJoK-xXG1Cfl9cWQs233kQ0GCYA1/view?usp=sharing"
                   title="View my Resume"
                 >
                   <div className="text_content">
