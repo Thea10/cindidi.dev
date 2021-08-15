@@ -133,7 +133,6 @@ const About = () => {
                 <div>Gatsby</div>
                 <div> Vue </div>
                 <div>Node </div>
-                <div> Jest </div>
                 <div> MongoDB </div>
                 <div> Express </div>
                 <div>C# </div>
