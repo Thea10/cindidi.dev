@@ -21,8 +21,8 @@ let projects = [
     resources: [],
   },{
 name: "GitHub Profile",
-description: "Cloned an organisation's GitHub profile",
-tools: ["Vue", "Veux","TYPESCRIPT", "JEST", "SCSS",
+description: "Cloned an organisation's GitHub profile and repositories",
+tools: ["Vue", "Veux","TYPESCRIPT", "JEST", "SCSS"],
 repo: "Private",
 hosted: "https://holo-repo-test.netlify.app/",
 resources: ["GITHUB REST API"]
