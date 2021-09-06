@@ -11,6 +11,23 @@ let projects = [
     hosted: "http://cindidi-dev.netlify.app/",
     resources: ["An array named projects"],
   },
+
+{
+    name: "Churchvest",
+    description: "Web application targetting administration",
+    tools: ["HTML", "SCSS", "ANGULAR 8", "TYPESCRIPT"],
+    repo: "Private",
+    hosted: "https://churchvest-test.web.app/",
+    resources: [],
+  },{
+name: "GitHub Profile",
+description: "Cloned an organisation's GitHub profile",
+tools: ["Vue", "Veux","TYPESCRIPT", "JEST", "SCSS",
+repo: "Private",
+hosted: "https://holo-repo-test.netlify.app/",
+resources: ["GITHUB REST API"]
+},
+  
   {
     name: "Unsplash Clone",
     description: "A mini Unsplash.com clone",
@@ -35,15 +52,6 @@ let projects = [
     hosted: "https://screenplayngg.firebaseapp.com/",
     resources: [],
   },
-  {
-    name: "Churchvest",
-    description: "Web application targetting administration",
-    tools: ["HTML", "SCSS", "ANGULAR 8", "TYPESCRIPT"],
-    repo: "Private",
-    hosted: "https://churchvest-test.web.app/",
-    resources: [],
-  },
-  
   {
     name: "Github User Search",
     description: "Search for a user on github with this (lists ionly the user's public repositories)",
